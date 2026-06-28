@@ -152,3 +152,30 @@ public class EcommerceSearch {
 
     }
 }
+
+
+/*
+OUTPUT
+---------
+
+E-Commerce Search System
+
+1. Search Product
+2. Filter By Price
+3. Sort By Price
+4. Exit
+
+Enter choice: 1
+
+Enter search keyword: nike
+
+
+-------------------------
+Product ID : 3
+Name       : Nike Running Shoes
+Category   : Footwear
+Brand      : Nike
+Price      : 5000.0
+Rating     : 4.5
+
+*/
