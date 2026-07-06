@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AssertionsInJUnit" />
         <module name="AAA" />
+        <module name="MockingandStubbing" />
       </profile>
     </annotationProcessing>
   </component>
