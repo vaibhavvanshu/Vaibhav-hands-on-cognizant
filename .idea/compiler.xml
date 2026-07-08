@@ -6,11 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AssertionsInJUnit" />
         <module name="AAA" />
         <module name="MockingandStubbing" />
-        <module name="LoggingusingSLF4J" />
-        <module name="AssertionsInJUnit" />
-        <module name="VerifyingInteractions" />
       </profile>
     </annotationProcessing>
   </component>
