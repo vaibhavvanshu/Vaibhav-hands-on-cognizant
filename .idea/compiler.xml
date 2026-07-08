@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AAA" />
         <module name="MockingandStubbing" />
+        <module name="LoggingusingSLF4J" />
         <module name="AssertionsInJUnit" />
         <module name="VerifyingInteractions" />
       </profile>
