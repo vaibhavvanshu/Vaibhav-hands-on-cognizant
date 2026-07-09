@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="LibraryManagement" />
         <module name="LoggingusingSLF4J" />
+        <module name="DependencyInjection" />
       </profile>
     </annotationProcessing>
   </component>

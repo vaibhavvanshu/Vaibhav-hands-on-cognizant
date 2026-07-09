@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/Week 3/SLF4J/Exercise 1 - Logging using SLF4J/pom.xml" />
         <option value="$PROJECT_DIR$/Week 3/Spring Core and Maven/Exercise 1 - LibraryManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/Week 3/Spring Core and Maven/Exercise 2 - Dependency Injection/pom.xml" />
       </list>
     </option>
   </component>
