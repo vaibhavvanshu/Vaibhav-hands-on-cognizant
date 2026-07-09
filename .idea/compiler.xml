@@ -9,6 +9,7 @@
         <module name="LibraryManagement" />
         <module name="LoggingusingSLF4J" />
         <module name="DependencyInjection" />
+        <module name="LibraryManagement (1) (com.library)" />
         <module name="SpringAOPLogging" />
       </profile>
     </annotationProcessing>
