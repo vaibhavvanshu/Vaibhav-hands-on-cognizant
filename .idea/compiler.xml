@@ -11,6 +11,7 @@
         <module name="LibraryManagement" />
         <module name="Hands-on4-SpringConfigurationXML" />
         <module name="LoggingusingSLF4J" />
+        <module name="get-country-by-code" />
         <module name="spring-learn" />
         <module name="DependencyInjection" />
         <module name="LibraryManagement (1) (com.library)" />
@@ -22,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Country-Web-Service" options="-parameters" />
       <module name="Hands-on4-SpringConfigurationXML" options="-parameters" />
+      <module name="get-country-by-code" options="-parameters" />
       <module name="orm-learn" options="-parameters" />
       <module name="spring-learn" options="-parameters" />
     </option>
