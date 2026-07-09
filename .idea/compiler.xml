@@ -7,16 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JWT-Exercise" />
-        <module name="Country-Web-Service" />
+        <module name="loan" />
         <module name="orm-learn" />
-        <module name="LibraryManagement" />
-        <module name="Hands-on4-SpringConfigurationXML" />
         <module name="LoggingusingSLF4J" />
         <module name="get-country-by-code" />
         <module name="spring-learn" />
         <module name="DependencyInjection" />
-        <module name="LibraryManagement (1) (com.library)" />
         <module name="SpringAOPLogging" />
+        <module name="Country-Web-Service" />
+        <module name="LibraryManagement" />
+        <module name="Hands-on4-SpringConfigurationXML" />
+        <module name="LibraryManagement (1) (com.library)" />
+        <module name="account" />
       </profile>
     </annotationProcessing>
   </component>
@@ -25,7 +27,9 @@
       <module name="Country-Web-Service" options="-parameters" />
       <module name="Hands-on4-SpringConfigurationXML" options="-parameters" />
       <module name="JWT-Exercise" options="-parameters" />
+      <module name="account" options="-parameters" />
       <module name="get-country-by-code" options="-parameters" />
+      <module name="loan" options="-parameters" />
       <module name="orm-learn" options="-parameters" />
       <module name="spring-learn" options="-parameters" />
     </option>
