@@ -1,70 +1,278 @@
-# Getting Started with Create React App
+# Week 5 - React Exercise 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Creating Your First React Application
 
-## Available Scripts
+## Objectives
 
-In the project directory, you can run:
+- Define Single Page Application (SPA) and its benefits.
+- Define React and understand how it works.
+- Identify the differences between SPA and MPA.
+- Explain the advantages and disadvantages of Single Page Applications.
+- Explain React.
+- Define Virtual DOM.
+- Explain the features of React.
+- Set up a React development environment.
+- Create a React application using Create React App.
+- Run a React application successfully.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Before starting the exercise, install the following software:
 
-### `npm test`
+- Node.js
+- npm (comes with Node.js)
+- Visual Studio Code
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# Theory
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 1. What is a Single Page Application (SPA)?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A Single Page Application (SPA) is a web application that loads a single HTML page initially. Instead of loading a new page for every request, only the required content is updated dynamically using JavaScript, providing a smoother and faster user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 2. Benefits of SPA
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Faster navigation after the initial page load.
+- Better user experience.
+- Reduced server load.
+- Lower bandwidth consumption.
+- Smooth page transitions.
+- Efficient communication with REST APIs.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 3. Difference Between SPA and MPA
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Single Page Application (SPA) | Multi Page Application (MPA) |
+|-------------------------------|------------------------------|
+| Loads a single HTML page | Loads a new HTML page for every request |
+| Fast navigation | Slower due to page reloads |
+| Better user experience | Traditional navigation |
+| Uses JavaScript frameworks like React | Mostly server-side rendered |
+| Dynamic content updates | Entire page reloads |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 4. Advantages of SPA
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- High performance
+- Better user experience
+- Fast page rendering
+- Easy API integration
+- Lower server requests
+- Reusable components
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 5. Disadvantages of SPA
 
-### Analyzing the Bundle Size
+- Initial loading time is higher.
+- SEO is comparatively difficult.
+- Requires JavaScript to function.
+- Browser history management is more complex.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 6. What is React?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+React is an open-source JavaScript library developed by Facebook for building fast and interactive user interfaces. It follows a component-based architecture, allowing developers to build reusable UI components and efficiently update the page using the Virtual DOM.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 7. What is Virtual DOM?
 
-### Deployment
+The Virtual DOM is a lightweight copy of the Real DOM maintained by React. Whenever data changes, React creates a new Virtual DOM, compares it with the previous one, identifies the differences, and updates only the modified elements in the Real DOM. This process improves application performance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 8. Features of React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Component-Based Architecture
+- Virtual DOM
+- JSX (JavaScript XML)
+- One-Way Data Binding
+- Reusable Components
+- High Performance
+- Declarative UI
+- Easy Debugging
+- Strong Community Support
+
+---
+
+# Procedure
+
+## Step 1: Install Node.js
+
+Download Node.js from:
+
+https://nodejs.org/en/download/
+
+Verify installation:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## Step 2: Create a React Application
+
+Open Command Prompt and execute:
+
+```bash
+npx create-react-app myfirstreact
+```
+
+---
+
+## Step 3: Navigate to the Project
+
+```bash
+cd myfirstreact
+```
+
+---
+
+## Step 4: Open the Project in Visual Studio Code
+
+```bash
+code .
+```
+
+---
+
+## Step 5: Open App.js
+
+Navigate to:
+
+```
+src
+ └── App.js
+```
+
+Delete the existing code.
+
+Replace it with:
+
+```javascript
+function App() {
+  return (
+    <div>
+      <h1>Welcome to the first session of React</h1>
+    </div>
+  );
+}
+
+export default App;
+```
+
+---
+
+## Step 6: Run the Application
+
+Execute:
+
+```bash
+npm start
+```
+
+---
+
+## Step 7: View the Output
+
+Open your browser and visit:
+
+```
+http://localhost:3000
+```
+
+---
+
+# Commands Used
+
+```bash
+node -v
+```
+
+```bash
+npm -v
+```
+
+```bash
+npx create-react-app myfirstreact
+```
+
+```bash
+cd myfirstreact
+```
+
+```bash
+code .
+```
+
+```bash
+npm start
+```
+
+---
+
+# Project Structure
+
+```
+Week 5
+│
+└── React Exercise 1
+    │
+    ├── README.md
+    ├── Screenshots
+    │
+    └── myfirstreact
+        │
+        ├── package.json
+        ├── public
+        ├── src
+        │   ├── App.js
+        │   ├── index.js
+        │   └── ...
+        └── ...
+```
+
+---
+
+# Source Code (App.js)
+
+```javascript
+function App() {
+  return (
+    <div>
+      <h1>Welcome to the first session of React</h1>
+    </div>
+  );
+}
+
+export default App;
+```
+
+---
+
+# Expected Output
+
+```
+Welcome to the first session of React
+```
+
+---
+
+# Result
+
+A React application named **myfirstreact** was successfully created using **Create React App**. The application was executed using the `npm start` command, and the browser displayed the heading:
+
+**Welcome to the first session of React**
+
+Thus, the objectives of understanding React, Single Page Applications (SPA), Virtual DOM, and setting up a React development environment were successfully achieved.
